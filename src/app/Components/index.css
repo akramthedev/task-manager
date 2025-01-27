@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+.navbar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    height: 80px;
+    justify-content: space-between;
+    padding: 0 2rem;
+    z-index: 9999;
+    backdrop-filter: blur(7px) saturate(200%);
+    -webkit-backdrop-filter: blur(7px) saturate(200%);
+    background-color: rgba(8, 9, 10, 0.24);
+    position: fixed !important;
+    top: 0;
+}
+
+
+.others button{
+    margin-right: 1rem;
+    font-family: "Inter";
+    height: 36px;
+    cursor: pointer;
+    width: auto;
+    padding: 0 1.25rem;
+    font-size: 0.95rem;
+    font-weight: 500;
+    letter-spacing: 0.3px;
+    transition: 0.25s all ease-in-out;
+    border-radius: .4rem;
+    outline: none;
+}
+
+.others .b1{
+    background-color: transparent;
+    color: gray;
+    border: none;
+    margin-right: 1.3rem;
+}
+.others .b1:hover{
+    color: rgb(255, 255, 255);
+}
+
+
+
+.others .b3{
+    background-color: #f0f0f0;
+    border: none;
+    color: #161616;
+
+}
+.others .b3:hover{
+    background-color: #ffffff;
+    border: none;
+    color: #000000;
+}
+
+.logo{
+    color: #f0f0f0;
+    font-family: "Inter", serif;
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.logoImg{
+    height: 46px;
+    width: auto;
+    cursor: pointer;
+}
+
+.nzousfd p{
+    text-align: center;
+    margin-top: 9vh;
+    color: gray;
+    font-size: 1rem;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+.b1b1{
+    margin-right: 0rem !important;
+
+}
