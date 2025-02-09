@@ -3,7 +3,8 @@
     padding: 20px;
     background-color: #09090b;
     color: #fff;
-    min-height: 100vh;
+    min-height: 90vh ;
+    margin-top: 3rem !important;
     font-family: "Inter", sans-serif;
   }
   
