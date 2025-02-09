@@ -12,7 +12,7 @@ const Page = () => {
         <meta name="description" content="Effortlessly manage your tasks, focus on what matters most, and turn plans into accomplishments." />
       </Head>
       <main  className='TodoPage' >
-        <Navbar />
+        {/*<Navbar />*/}
         <Tasks />
       </main>
     </>
